@@ -17,6 +17,10 @@ header {
     padding: 1px;
 }
 
+h1 {
+    text-shadow: 2px 2px 20px black;
+}
+
 h2, h3 {
     font-family: idroid, sans-serif;
     color: rgb(0, 255, 106);
@@ -50,6 +54,7 @@ main {
     max-width: 800px;
     margin: auto;
     text-align: center;
+    box-shadow: 2px 2px 25px;
 }
 
 section#lista img{
