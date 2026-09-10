@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira tabela</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        th {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        thead {
+            background-color: rgba(0, 0, 0, 0.178);
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População das cidades</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+
+        </thead>
+       
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 179 008</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">11 952 456</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 460 311</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 756 324</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <th>Total de pessoas</th>
+            <td class="num">88.348.099</td>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium voluptatibus cumque hic odio eos? Consequuntur, sit repudiandae. Nostrum cupiditate libero ullam facilis dicta modi temporibus sequi beatae vero ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia vel voluptate ipsa quos obcaecati accusamus consequuntur dignissimos! Soluta obcaecati voluptatum exercitationem maiores possimus deserunt voluptatibus deleniti molestiae, voluptatem temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt iusto, obcaecati a, quos eum alias, repellat eligendi suscipit distinctio voluptatem sequi eos ipsum delectus? Sit accusantium distinctio iure aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nisi soluta accusamus culpa cumque labore odio eos inventore ratione modi! Reprehenderit, sunt? Hic veritatis odio consequatur iure animi doloribus quisquam.</p>
+
+    <a href="tabela003.html">Página 3</a>
+</body>
+</html>
